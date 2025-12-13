@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "functions": {
+    "/admin-users/[details]": {},
+    "/agents/[id]": {},
+    "/call-logs/[id]": {},
+    "/campaign/[id]": {},
+    "/providers/[edit]": {}
+  }
+}

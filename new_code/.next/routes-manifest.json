@@ -1,0 +1,343 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/admin-users/[details]",
+      "regex": "^/admin\\-users/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPdetails": "nxtPdetails"
+      },
+      "namedRegex": "^/admin\\-users/(?<nxtPdetails>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/agents/[id]",
+      "regex": "^/agents/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/agents/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/call-logs/[id]",
+      "regex": "^/call\\-logs/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/call\\-logs/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/campaign/[id]",
+      "regex": "^/campaign/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/campaign/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/providers/[edit]",
+      "regex": "^/providers/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPedit": "nxtPedit"
+      },
+      "namedRegex": "^/providers/(?<nxtPedit>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/accounts",
+      "regex": "^/accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts(?:/)?$"
+    },
+    {
+      "page": "/actions-all",
+      "regex": "^/actions\\-all(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all(?:/)?$"
+    },
+    {
+      "page": "/actions-all/call-transfer",
+      "regex": "^/actions\\-all/call\\-transfer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all/call\\-transfer(?:/)?$"
+    },
+    {
+      "page": "/actions-all/call-transfer/create",
+      "regex": "^/actions\\-all/call\\-transfer/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all/call\\-transfer/create(?:/)?$"
+    },
+    {
+      "page": "/actions-all/create-tools",
+      "regex": "^/actions\\-all/create\\-tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all/create\\-tools(?:/)?$"
+    },
+    {
+      "page": "/actions-all/create-tools/create",
+      "regex": "^/actions\\-all/create\\-tools/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all/create\\-tools/create(?:/)?$"
+    },
+    {
+      "page": "/actions-all/global-variables",
+      "regex": "^/actions\\-all/global\\-variables(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all/global\\-variables(?:/)?$"
+    },
+    {
+      "page": "/actions-all/realtime-booking",
+      "regex": "^/actions\\-all/realtime\\-booking(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all/realtime\\-booking(?:/)?$"
+    },
+    {
+      "page": "/actions-all/realtime-booking/create",
+      "regex": "^/actions\\-all/realtime\\-booking/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all/realtime\\-booking/create(?:/)?$"
+    },
+    {
+      "page": "/actions-all/send-notification",
+      "regex": "^/actions\\-all/send\\-notification(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all/send\\-notification(?:/)?$"
+    },
+    {
+      "page": "/actions-all/send-notification/create",
+      "regex": "^/actions\\-all/send\\-notification/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actions\\-all/send\\-notification/create(?:/)?$"
+    },
+    {
+      "page": "/admin-users",
+      "regex": "^/admin\\-users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin\\-users(?:/)?$"
+    },
+    {
+      "page": "/agents",
+      "regex": "^/agents(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agents(?:/)?$"
+    },
+    {
+      "page": "/agents/create",
+      "regex": "^/agents/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agents/create(?:/)?$"
+    },
+    {
+      "page": "/agents/edit",
+      "regex": "^/agents/edit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agents/edit(?:/)?$"
+    },
+    {
+      "page": "/billing",
+      "regex": "^/billing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing(?:/)?$"
+    },
+    {
+      "page": "/billing/cancel",
+      "regex": "^/billing/cancel(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing/cancel(?:/)?$"
+    },
+    {
+      "page": "/billing/success",
+      "regex": "^/billing/success(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing/success(?:/)?$"
+    },
+    {
+      "page": "/billings",
+      "regex": "^/billings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billings(?:/)?$"
+    },
+    {
+      "page": "/billings/recharge",
+      "regex": "^/billings/recharge(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billings/recharge(?:/)?$"
+    },
+    {
+      "page": "/call-logs",
+      "regex": "^/call\\-logs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/call\\-logs(?:/)?$"
+    },
+    {
+      "page": "/campaign",
+      "regex": "^/campaign(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/campaign(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/forgot-password",
+      "regex": "^/forgot\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/integrations",
+      "regex": "^/integrations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/integrations(?:/)?$"
+    },
+    {
+      "page": "/integrations/calendars",
+      "regex": "^/integrations/calendars(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/integrations/calendars(?:/)?$"
+    },
+    {
+      "page": "/integrations/success",
+      "regex": "^/integrations/success(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/integrations/success(?:/)?$"
+    },
+    {
+      "page": "/knowledgebase",
+      "regex": "^/knowledgebase(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/knowledgebase(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/onboarding",
+      "regex": "^/onboarding(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/onboarding(?:/)?$"
+    },
+    {
+      "page": "/phone-numbers",
+      "regex": "^/phone\\-numbers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/phone\\-numbers(?:/)?$"
+    },
+    {
+      "page": "/phone-numbers/purchase",
+      "regex": "^/phone\\-numbers/purchase(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/phone\\-numbers/purchase(?:/)?$"
+    },
+    {
+      "page": "/phone-numbers/success",
+      "regex": "^/phone\\-numbers/success(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/phone\\-numbers/success(?:/)?$"
+    },
+    {
+      "page": "/providers",
+      "regex": "^/providers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/providers(?:/)?$"
+    },
+    {
+      "page": "/providers/create",
+      "regex": "^/providers/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/providers/create(?:/)?$"
+    },
+    {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/signup",
+      "regex": "^/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signup(?:/)?$"
+    },
+    {
+      "page": "/suspend",
+      "regex": "^/suspend(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/suspend(?:/)?$"
+    },
+    {
+      "page": "/verification-pending",
+      "regex": "^/verification\\-pending(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/verification\\-pending(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

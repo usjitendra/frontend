@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/actions-all/layout,_N_T_/actions-all/call-transfer/layout,_N_T_/actions-all/call-transfer/page,_N_T_/actions-all/call-transfer"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/actions-all/call-transfer/__PAGE__",
+    "/actions-all/call-transfer",
+    "/actions-all",
+    "/_index",
+    "/_head"
+  ]
+}

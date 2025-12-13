@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,815901,e=>{"use strict";var c=e.i(454996);e.s(["default",0,()=>(0,c.jsx)("div",{className:"min-h-screen min-h-[calc(100%-56px)] w-full flex items-center justify-center",children:(0,c.jsx)("div",{className:"text-2xl font-bold",children:"EccentricAI Dashboard"})})])}]);
